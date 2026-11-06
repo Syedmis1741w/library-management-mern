@@ -1,0 +1,29 @@
+:root {
+  --bs-primary: #14532d;
+  --bs-primary-rgb: 20, 83, 45;
+  --bs-link-color: #14532d;
+  --bs-link-hover-color: #0b3a1f;
+  --ink: #1b2a22;
+  --paper: #f6f7f4;
+  --spine: #b45309;
+}
+body { background: var(--paper); color: var(--ink); }
+h1, h2, h3, h4, .brand { font-family: 'Newsreader', Georgia, serif; letter-spacing: -0.01em; }
+.btn-primary { --bs-btn-bg: #14532d; --bs-btn-border-color: #14532d; --bs-btn-hover-bg: #0b3a1f; --bs-btn-hover-border-color: #0b3a1f; --bs-btn-active-bg: #0b3a1f; --bs-btn-disabled-bg: #14532d; --bs-btn-disabled-border-color: #14532d; }
+.btn-outline-primary { --bs-btn-color: #14532d; --bs-btn-border-color: #14532d; --bs-btn-hover-bg: #14532d; --bs-btn-hover-border-color: #14532d; --bs-btn-active-bg: #14532d; }
+.site-nav { background: #14532d; }
+.site-nav .nav-link { color: #d9e8de; }
+.site-nav .nav-link.active, .site-nav .nav-link:hover { color: #fff; }
+.brand { font-size: 1.5rem; color: #fff; text-decoration: none; }
+.brand span { color: #f5b861; }
+.hero { background: linear-gradient(180deg, #14532d 0%, #1d6b3c 100%); color: #fff; border-radius: 1rem; }
+.hero h1 { font-size: clamp(2rem, 5vw, 3.25rem); }
+.stat { border: 0; border-left: 5px solid var(--spine); border-radius: .5rem; }
+.stat .n { font-family: 'Newsreader', serif; font-size: 2.25rem; line-height: 1; }
+.book-card { border: 0; border-radius: .5rem; overflow: hidden; box-shadow: 0 1px 3px rgba(20,40,30,.12); }
+.book-cover { aspect-ratio: 3 / 4; object-fit: cover; width: 100%; background: #e4e8e1; }
+.book-cover.placeholder { display: flex; align-items: center; justify-content: center; padding: 1rem; text-align: center; font-family: 'Newsreader', serif; font-weight: 700; font-size: 1.1rem; color: #fff; background: linear-gradient(160deg, #14532d, #3b7d57); border-left: 10px solid var(--spine); }
+.avatar { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; background: #cbd5cf; }
+.avatar-lg { width: 120px; height: 120px; }
+.table > :not(caption) > * > * { vertical-align: middle; }
+.modal-backdrop-lite { background: rgba(10, 25, 15, .55); }
